@@ -1,0 +1,171 @@
+/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #0030be;
+    color: #d6c100;
+    padding: 20px 0;
+}
+
+.header-content {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header h1 a{
+    color: #ffe600;
+    text-decoration: none;
+}
+
+header #research{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffe600;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+
+section {
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.publications_each{
+    margin-bottom: 3vh;
+}
+
+.conferences_each{
+    margin-bottom: 5vh;
+}
+
+.past_projects_each{
+    margin-bottom: 5vh;
+}
+
+.italics{
+    font-style: italic;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+footer {
+    margin-top: 100px;
+    background: #0030be;
+    color: #ffe600;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info,
+.social-links {
+    flex: 1;
+    
+}
+
+.contact-info h3,
+.social-links h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.contact-info a{
+    color: #ffe600;
+    text-decoration: none;
+}
+
+.contact-info #address{
+    margin-top: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+}
+
+.social-links ul li {
+    margin-bottom: 10px;
+}
+
+.social-links ul li i{
+    margin-right: 10px;
+}
+
+.social-links ul li a {
+    color: #ffe600;
+    text-decoration: none;
+}
+
+.social-links ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.bottom{
+    width:100vw;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
