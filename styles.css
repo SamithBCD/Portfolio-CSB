@@ -66,8 +66,8 @@ nav ul li a:hover {
 }
 
 #about #me-image img{
-    height: 60vh;
-    width: 30vw;
+    height: 350px;
+    width: 400px;
     border-radius: 30px;
 }
 
@@ -180,4 +180,23 @@ footer {
     text-align: center;
     margin-top: 30px;
     margin-bottom: -20px;
+}
+
+@media (max-width: 1200px) {
+    #details{
+        display:grid;
+    }
+
+    #me{
+        margin-top: 40px;
+    }
+
+    #me-image{
+        display: flex;
+        align-items: center;
+    }
+
+    #me-image img{
+        margin: 0 auto;
+    }
 }
